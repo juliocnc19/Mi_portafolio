@@ -1,0 +1,118 @@
+*{
+	font-family:sans-serif ;
+}
+
+body{
+	display: flex;
+}
+
+.nav-container{
+	display: flex;
+	background-color: #888;
+	padding: 5px;
+	min-width: 100vw;
+	justify-content: center;
+
+}
+
+.ul-nav{
+	display: flex;
+
+}
+
+.li-nav{
+	margin-right: 20px;
+	list-style: none;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.link{
+	text-decoration: none;
+	color: #ddd
+}
+
+.container-main{
+	margin: 20px auto;
+	width: 50vw;
+}
+
+.container-present{
+	display: flex;
+	background-color: #555;
+	color: #fff;
+}
+
+.container-present div img{
+	margin: 9px;
+}
+
+.text-present{
+	margin-left: 10px;
+}
+
+.seccion-container{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ccc;
+
+}
+
+.li-progress{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	list-style: none;
+
+	&>progress{
+		outline: none;
+	}
+}
+
+.habilidades-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+
+	&>h2{
+		color: #333;
+	}
+
+}
+.experiencia-container{
+	padding: 5px;
+
+	&>h2{
+		color:#333;
+		margin-left: 20px;
+	}
+
+	&>ul>h3{
+		color:#333;
+	}
+
+}
+
+.container-github{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.li-github{
+	list-style: none;
+	background-color: #ccc;
+	color:#333;
+	padding: 15px;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	min-width: 310px;
+
+	&>a{
+		text-decoration: none;
+	}
+}
+
