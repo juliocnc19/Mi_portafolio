@@ -10,7 +10,7 @@ export default function Portafolio(){
 				proyectos.map(({url,titulo},id)=>(
 					<div className="li-github">
 						<h3>{titulo}</h3>
-						<a href={url} target="_BLANK">{url}</a>
+						<a href={url} target="_BLANK" className="a-github">{url}</a>
 					</div>	
 				))
 			}

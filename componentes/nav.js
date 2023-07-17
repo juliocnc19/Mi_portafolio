@@ -13,10 +13,6 @@ export default function Nav(){
           <Link href="/portafolio" className="link">portafolio</Link>
         </li>
         
-        <li className="li-nav">
-          <Link href="/contacto" className="link">Contacto</Link>
-        </li>
-        
       </ul>
         
     </nav>
